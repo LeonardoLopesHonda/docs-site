@@ -1,4 +1,5 @@
 export default {
   index: 'Bem-vindo',
-  geral: 'Atividades Gerais'
+  geral: 'Atividades Gerais',
+  seguranca: 'Segurança'
 }
