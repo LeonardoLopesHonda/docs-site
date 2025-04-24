@@ -1,4 +1,5 @@
 export default {
   seguranca: "Segurança do Trabalho",
-  epi: "EPI"
+  epi: "EPI",
+  funcionario: "Funcionários"
 }
