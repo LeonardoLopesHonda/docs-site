@@ -3,5 +3,6 @@ export default {
   epi: "EPI",
   funcionario: "Funcionários",
   dds: "DDS",
-  bloqueio: "Cartões de Bloqueio de Energia"
+  bloqueio: "Cartões de Bloqueio de Energia",
+  carteirinha: "Carteirinha de Permissão"
 }
