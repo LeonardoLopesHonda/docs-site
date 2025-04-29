@@ -6,5 +6,6 @@ export default {
   bloqueio: "Cartões de Bloqueio de Energia",
   carteirinha: "Carteirinha de Permissão",
   monitoramento: "Monitoramento",
-  comissionamento: "Comissionamento"
+  comissionamento: "Comissionamento",
+  contratadas: "Gestão de Contratadas"
 }
