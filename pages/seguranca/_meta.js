@@ -7,5 +7,6 @@ export default {
   carteirinha: "Carteirinha de Permissão",
   monitoramento: "Monitoramento",
   comissionamento: "Comissionamento",
-  contratadas: "Gestão de Contratadas"
+  contratadas: "Gestão de Contratadas",
+  indicadores: "Indicadores"
 }
