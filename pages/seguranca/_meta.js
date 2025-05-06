@@ -9,5 +9,6 @@ export default {
   comissionamento: "Comissionamento",
   contratadas: "Gestão de Contratadas",
   indicadores: "Indicadores",
-  investigacao: "Investigação de Acidentes"
+  investigacao: "Investigação de Acidentes",
+  cipamin: "CIPAMIN"
 }
