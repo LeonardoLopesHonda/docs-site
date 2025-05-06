@@ -10,5 +10,6 @@ export default {
   contratadas: "Gestão de Contratadas",
   indicadores: "Indicadores",
   investigacao: "Investigação de Acidentes",
-  cipamin: "CIPAMIN"
+  cipamin: "CIPAMIN",
+  brigada: "Brigada de Incêndio"
 }
