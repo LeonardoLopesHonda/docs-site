@@ -8,5 +8,6 @@ export default {
   monitoramento: "Monitoramento",
   comissionamento: "Comissionamento",
   contratadas: "Gestão de Contratadas",
-  indicadores: "Indicadores"
+  indicadores: "Indicadores",
+  investigacao: "Investigação de Acidentes"
 }
