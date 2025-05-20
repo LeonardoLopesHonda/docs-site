@@ -1,15 +1,12 @@
 export default {
   index: 'Bem-vindo',
   geral: {
-    title: 'Atividades Gerais',
-    type: 'page'
+    title: 'Atividades Gerais'
   },
   seguranca: {
-    title: 'Segurança',
-    type: 'page'
+    title: 'Segurança'
   },
   saude: {
-    title: 'Saúde',
-    type: 'page'
+    title: 'Saúde'
   }
 }

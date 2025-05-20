@@ -1,2 +1,69 @@
 # Atestado de Saúde Ocupacional (ASO)
 
+O ASO, ou Atestado de Saúde Ocupacional, é um documento emitido após a realização de exames médicos ocupacionais. 
+Ele tem como objetivo comprovar legalmente que o trabalhador passou por uma avaliação médica e está apto ou inapto para exercer suas funções na empresa. 
+
+Os exames que podem resultar na emissão de um ASO incluem:
+
+- [***`Exame admissional`***](./aso.mdx#exames-admissionais): Realizado antes da contratação do trabalhador.
+- [***`Exame periódico`***](./aso.mdx#exames-periódicos): Realizado em intervalos regulares durante o período de trabalho.
+- [***`Exame demissional`***](./aso.mdx#exames-demissionais): Realizado quando o trabalhador está deixando a empresa.
+- [***`Exame de retorno ao trabalho`***](./aso.mdx#exames-de-retorno-ao-trabalho): Realizado após afastamento por doença / acidente / férias.
+- [***`Exame de mudança de função`***](./aso.mdx#exames-de-mudança-de-função): Realizado quando o trabalhador muda de função dentro da empresa.
+
+>> Os Exames mais recorrentes são: `Exame admissional`, `Exame periódico`, `Exame de retorno ao trabalho`
+
+> Os ASOs atualmente são emitidos pela empresa `MedNet` e vem de forma física, portanto é necessário [`escanear`](../geral/impressora.mdx#escaneamento) e armazenar no [`sharepoint`](../geral/sistemas.mdx#sharepoint)
+
+--- 
+
+### Exames Admissionais
+
+São os exames que o colaborador precisa fazer para confirmar se está apto ou não para exercer o cargo ao qual foi atribuído. Este exame tem uma carga de exames maior que o [`periódico`](./aso.mdx#exames-periódicos).
+
+---
+
+### Exames Periódicos
+
+São os exames que se fazem a cada ano, geralmente atendendo a periodicidade do `Exame Clínico` (que vence de ano em ano).
+
+> Considerando, claro, que ele não seja desligado antes do periódico.
+
+Algo importante a se pontuar é que cada consulta específica marcada no exame tem um periodicidade diferente, isto significa que apesar do periódico ser feito anualmente alguns exames podem ou não ser válidos na data do `Exame Clínico`.
+
+> Cada consulta específica pode ter uma periodicidade específica dependendo do cargo. Também cada cargo possui um conjunto de consultas para se fazer no exame.
+>> Foi implementada uma automação para fazer a checagem do vencimento dos periódicos (priorizando o clínico) e emitindo um email com 7 dias e outro com 3 dias de antecedência.
+
+---
+
+### Exames Demissionais
+
+Esses exames são feitos para ser possível o desligamento do funcionário. 
+
+No caso do último exame dele ainda estar sendo válido, há a possibilidade de utilizar as consultas específicas (Raio-x, Espirometria, Acuidade, etc.) e realizar somente o clínico. 
+
+No caso de estar vencido ou para vencer a validade de algum desses exames, precisará consultar com seu supervisor e médico do trabalho sobre as consultas que serão consideradas nos exames.
+
+> Outros documentos como atestados e asos antigos precisam ser arquivados a fim de manter um histórico do funcionário para ser montado seu `dossiê` quando for desligado, acaba por se tornar uma maneira de se blindar contra processos repentinos.
+
+---
+
+### Exames de Retorno ao trabalho
+
+Como o nome já diz esses exames são feitos para averiguar se o colaborar encontra-se em condições para seu retorno ao trabalho, seja por estar voltando das férias ou retornando de algum afastamento prolongado.
+
+> Comumente é realizado apenas o `Exame Clínico`, mas em casos de afastamento é recomendado que faça uma verificação cautelosa sobre as consultas específicas
+
+---
+
+### Exames de Mudança de Função
+
+Toda vez que um Estagiário/Aprendiz é efetivado, um funcionário é promovido ou realocado de setor é necessário realizar um `Exame Clínico` para a mudança de função.
+
+> Temos alguns cargos que ao mudar de função também mudam os riscos ocupacionais, nesses casos é necessários realizar os exames requisitados segundo o `PCMSO`.
+
+--- 
+
+![Exemplo de Atestado de Saúde Ocupacional](/components/images/aso.png)
+
+Exemplo de Atestado de Saúde Ocupacional

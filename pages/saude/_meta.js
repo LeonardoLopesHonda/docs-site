@@ -1,3 +1,6 @@
 export default {
-  aso: "ASOs"
+  aso: {
+    title: "ASOs",
+    toc: true
+  }
 }
